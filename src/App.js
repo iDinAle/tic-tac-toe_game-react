@@ -66,6 +66,7 @@ class App extends React.Component {
     this.setState({
       turn: 'X',
       boxes: board,
+      gameMoves: 0,
     });
   }
 
