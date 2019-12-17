@@ -1,1 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap");
 
+$decorColor: rgb(95, 106, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Walter Turncoat", cursive;
+}
+
+body {
+  padding-left: 40px;
+}
+
+.main-title {
+  margin: 30px 0;
+  color: $decorColor;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__boxes {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 100px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+
+    &--1,
+    &--2,
+    &--3 {
+      border-top: none;
+    }
+
+    &--3,
+    &--6,
+    &--9 {
+      border-right: none;
+    }
+
+    &--7,
+    &--8,
+    &--9 {
+      border-bottom: none;
+    }
+
+    &--1,
+    &--4,
+    &--7 {
+      border-left: none;
+    }
+  }
+
+  &__message {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  &__new-game-btn {
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: "Walter Turncoat", cursive;
+    border-color: $decorColor;
+    padding: 0 10px;
+    transition: color 1s, background-color 1s;
+
+    &:hover {
+      background-color: $decorColor;
+      color: white;
+    }
+  }
+}
