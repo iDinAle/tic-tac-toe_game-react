@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe_game-react/static/css/main.3a718e19.chunk.css",
-    "main.js": "/tic-tac-toe_game-react/static/js/main.6bbbf79c.chunk.js",
-    "main.js.map": "/tic-tac-toe_game-react/static/js/main.6bbbf79c.chunk.js.map",
+    "main.css": "/tic-tac-toe_game-react/static/css/main.9fe69168.chunk.css",
+    "main.js": "/tic-tac-toe_game-react/static/js/main.351e9478.chunk.js",
+    "main.js.map": "/tic-tac-toe_game-react/static/js/main.351e9478.chunk.js.map",
     "runtime~main.js": "/tic-tac-toe_game-react/static/js/runtime~main.cf017217.js",
     "runtime~main.js.map": "/tic-tac-toe_game-react/static/js/runtime~main.cf017217.js.map",
     "static/js/2.0620cc55.chunk.js": "/tic-tac-toe_game-react/static/js/2.0620cc55.chunk.js",
     "static/js/2.0620cc55.chunk.js.map": "/tic-tac-toe_game-react/static/js/2.0620cc55.chunk.js.map",
     "index.html": "/tic-tac-toe_game-react/index.html",
-    "precache-manifest.7d81ed17495a5998c063e688e8f288a1.js": "/tic-tac-toe_game-react/precache-manifest.7d81ed17495a5998c063e688e8f288a1.js",
+    "precache-manifest.27a9fd661ed661091faa64dc5b8e9ec0.js": "/tic-tac-toe_game-react/precache-manifest.27a9fd661ed661091faa64dc5b8e9ec0.js",
     "service-worker.js": "/tic-tac-toe_game-react/service-worker.js",
-    "static/css/main.3a718e19.chunk.css.map": "/tic-tac-toe_game-react/static/css/main.3a718e19.chunk.css.map"
+    "static/css/main.9fe69168.chunk.css.map": "/tic-tac-toe_game-react/static/css/main.9fe69168.chunk.css.map"
   }
 }
