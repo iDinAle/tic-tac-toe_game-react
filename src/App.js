@@ -44,7 +44,7 @@ class App extends React.Component {
   checkWinner = (boxes) => {
     const moves = [
       [0, 1, 2], [3, 4, 5], [6, 7, 8],
-      [0, 3, 6], [1, 4, 5], [2, 5, 8],
+      [0, 3, 6], [1, 4, 7], [2, 5, 8],
       [0, 4, 8], [2, 4, 6],
     ];
 
@@ -97,7 +97,7 @@ class App extends React.Component {
 
         <div className="game__message">
           {result && (`${result} has won!`)}
-          {gameMoves === 9 && ('Draw!')}
+          {gameMoves === 9 && !result && ('Draw!')}
         </div>
 
         <button
